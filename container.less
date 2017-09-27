@@ -1,0 +1,23 @@
+@large-container: 1800px;
+@desktop-container: 1200px;
+@tablet-landscape-container: 900px;
+@tablet-portrait-container: 600px;
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: @large-container;
+
+    .for-desktop({
+        max-width: @desktop-container;
+    });
+    .for-tablet-landscape({
+        max-width: @tablet-landscape-container;
+    });
+    .for-tablet-portrait({
+        max-width: @tablet-portrait-container;
+    });
+    .for-phone({
+        max-width: none;
+    });
+}

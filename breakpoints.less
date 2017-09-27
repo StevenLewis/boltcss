@@ -1,0 +1,21 @@
+.for-phone(@content) {
+    @media (max-width: 600px) { @content(); }
+}
+.for-tablet-portrait(@content) {
+    @media (max-width: 900px) { @content(); }
+}
+.for-tablet-landscape(@content) {
+    @media (max-width: 1200px) { @content(); }
+}
+.for-desktop(@content) {
+    @media (max-width: 1800px) { @content(); }
+}
+
+// Usage
+.my-box {
+    padding: 20px;
+
+    .for-desktop({
+        padding: 10px;
+    });
+}
