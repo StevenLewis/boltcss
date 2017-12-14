@@ -1,0 +1,19 @@
+{
+  "name": "bolt",
+  "version": "1.0.0",
+  "description": "Lightweight css framework for frontend developers",
+  "main": "bolt.less",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenLewis/project-bolt.git"
+  },
+  "author": "Steve Lewis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenLewis/project-bolt/issues"
+  },
+  "homepage": "https://github.com/StevenLewis/project-bolt#readme"
+}
